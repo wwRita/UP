@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 商品管理系统2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/商品管理系统2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\商品管理系统2\商品管理系统2.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5B.tmp" 
+<h3>Output Window</h3>
+Compiling...
+商品管理系统2.c
+E:\商品管理系统2\商品管理系统2.c(209) : error C2115: 'function' : incompatible types
+E:\商品管理系统2\商品管理系统2.c(209) : warning C4024: 'strcmp' : different types for formal and actual parameter 1
+E:\商品管理系统2\商品管理系统2.c(209) : error C2115: 'function' : incompatible types
+E:\商品管理系统2\商品管理系统2.c(209) : warning C4024: 'strcmp' : different types for formal and actual parameter 2
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+商品管理系统2.obj - 2 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
